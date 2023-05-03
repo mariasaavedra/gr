@@ -33,5 +33,7 @@ module App
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.generators.javascripts = false
+    config.generators.stylesheets = false
   end
 end
