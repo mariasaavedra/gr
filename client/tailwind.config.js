@@ -6,7 +6,8 @@ const config = {
 	content: ['index.html', 'src/**/*.tsx'],
 	theme: {
 		fontFamily: {
-			sans: ['Inter', ...defaultConfig.theme.fontFamily.sans]
+			sans: ['Inter', ...defaultConfig.theme.fontFamily.sans],
+			mono: ['monospace', ...defaultConfig.theme.fontFamily.sans]
 		}
 	},
 	experimental: { optimizeUniversalDefaults: true },
