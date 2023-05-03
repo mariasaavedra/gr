@@ -11,21 +11,21 @@ export default function Prompt(): ReactElement {
 					height='100px'
 					className='mx-auto rounded-xl shadow-md'
 				/>
-				<p className='my-8 text-3xl font-bold'>Ask My Book</p>
-				<p className='text-grey-500 mx-auto text-left text-lg'>
+				<p className='my-6 text-2xl font-bold'>Ask My Book</p>
+				<p className='text-grey-500 mx-auto text-left text-rg'>
 					This is an experiment in using AI to make my book's content more
 					accessible. Ask a question and AI'll answer it in real-time:
 				</p>
 				<textarea
 					placeholder='What is The Minimalist Entrepreneur about?'
-					className='text-grey-500 my-8 mx-auto w-full rounded-xl border-[2px] border-black text-left font-mono font-semibold placeholder-black'
+					className='text-grey-500 font-light my-8 mx-auto w-full rounded-xl border-[1px] border-black text-left font-mono font-semibold placeholder-black'
 				/>
 				<div>
-					<button className='mr-2 rounded-xl bg-black p-4 text-white'>
-						Ask Question
+					<button className='mr-4 rounded-xl bg-black py-3 px-4 text-white'>
+						Ask question
 					</button>
-					<button className='rounded-xl bg-gray-200 p-4 text-gray-800 text-gray-900'>
-						I'm Feeling Lucky
+					<button className='rounded-xl bg-gray-100 py-3 px-4 text-gray-800 text-gray-900'>
+						I'm feeling lucky
 					</button>
 				</div>
 				<div className='my-8'>
